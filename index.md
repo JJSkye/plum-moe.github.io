@@ -9,7 +9,7 @@ image:
 ---
 
 <div class="tiles">
-{% for post in (site.categories.articles)[-4:] %}
+{% for post in site.categories.articles | list[-4:] %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
