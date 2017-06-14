@@ -1,8 +1,5 @@
 ---
 layout: archive
-title: "Лонгриды"
-modified:
-tags: []
 image:
   feature: karen-home-page.png
   teaser:
