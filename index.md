@@ -11,6 +11,7 @@ image:
 <div class="tiles">
 {% for post in site.categories.articles | reverse %}
   {%- if loop.index > 4 %}{% break %}{% endif %}
+  {{ loop.index }}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
