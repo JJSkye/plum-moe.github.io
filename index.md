@@ -9,9 +9,7 @@ image:
 ---
 
 <div class="tiles">
-{% for post in site.categories.articles | reverse %}
-  {%- if loop.index > 4 %}{% break %}{% endif %}
-  {{ loop.index }}
+{% for post in site.categories.articles limit:4 %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
