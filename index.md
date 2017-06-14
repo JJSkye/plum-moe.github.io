@@ -2,7 +2,6 @@
 layout: archive
 title: "Лонгриды"
 modified:
-excerpt: "A collection of thoughts, inspiration, mistakes, and other minutia."
 tags: []
 image:
   feature: karen-home-page.png
