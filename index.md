@@ -9,7 +9,8 @@ image:
 ---
 
 <div class="tiles">
-{% for post in (site.categories.articles | list)[-4:] %}
+{% for post in site.categories.articles | reverse %}
+  {%- if loop.index > 4 %}{% break %}{% endif %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
