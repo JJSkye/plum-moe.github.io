@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: "Донат"
 date: 2017-06-16
 modified: 2017-06-16
