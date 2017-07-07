@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h1>Посты по тегу «{{ page.tag }}»</h1>
+<h1>Посты по тегу «{{ page.tag }}»:</h1>
 <div>
     {% if site.tags[page.tag] %}
         {% for post in site.tags[page.tag] %}
-            <a href="{{ post.url }}/">{{ post.title }}</a>
+            <a href="{{ post.url }}">{{ post.title }}</a><br>
         {% endfor %}
     {% else %}
         <p>Постов по этому тегу не найдено.</p>
